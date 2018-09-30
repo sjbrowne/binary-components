@@ -1,0 +1,88 @@
+bin-ary {
+    display: grid;
+    grid-template-columns: repeat(35, 17px);
+    grid-template-rows: 20px; 
+    grid-column-gap: 2px;
+    margin: 0 0 2px 0;
+}
+bin-ary.bottom {
+    margin: 0 0 2px 0;
+}
+bin-ary.result {
+    margin: 2px 0 0 0;
+}
+eq-bar {
+    display: grid;
+    grid-template-columns: repeat(35, 17px); 
+    grid-column-gap: 2px;
+}
+op-shape {
+    display: grid;
+    grid-template-columns: 1fr repeat(35, 17px) 1fr;
+    grid-column-gap: 2px;
+}
+div.bit {
+    border-radius: 2px;
+    background: #CADCF6;
+    font-family: input, helvetica, sans-serif;
+    text-align: center;
+    color: #407CD2; 
+}
+div.ghost {
+    /*border-radius: 2px;*/
+    background: #f5f5f5;
+    /*font-family: input, helvetica, sans-serif;*/
+    /*text-align: center;*/
+    color: #e8e8ed; 
+}
+div.sign {
+    background: #fff;   
+    border: 1px solid #888;
+    color: #888;
+}
+div.exp {
+    background: #C0DC93;
+    color: #84A739;
+}
+div.special {
+    background: #FDFDFD;
+    border: 1px solid #DF3232;
+    color: #DF3232;
+}
+div.mantissa {
+    background: #DE74AE;
+    color: #B1397B;
+}
+div.highlight {
+    background: #DAEA4D;
+    color: #545454;
+    border: 1px solid #545454;
+}
+div.bar {
+    background: #cde6ef;
+    height: 1px;
+    align-self: center;
+    margin-left: -10px;
+    margin-right: -2px;
+}
+div.op {
+    background: #afafaf;
+    border-radius: 4px;
+    color: #fff;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 1.5em;
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+figure { 
+    display: grid;
+    grid-template-columns: 1fr 888px 1fr;
+    background: #fdfdfd;
+    border-top: 1px solid #cbe6ef;
+    border-bottom: 1px solid #cbe6ef;
+    padding: 30px;
+    margin: 50px auto;
+}
